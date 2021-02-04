@@ -14,8 +14,6 @@ async function getGames() {
     gamesContainer.innerHTML = "";
 
     for (let i = 0; i < facts.length; i++) {
-      console.log(facts[i]);
-
       if (i === 8) {
         break;
       }
