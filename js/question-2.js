@@ -20,7 +20,7 @@ async function getGames() {
         break;
       }
 
-      resultsContainer.innerHTML += `<div class="result"><h2>${facts[i].name}</h2><p> Rating: ${facts[i].rating}</p><p>Tags: ${facts[i].tags.length}</p></div>`;
+      resultsContainer.innerHTML += `<div class="result"><h2>${facts[i].name}</h2><p>Rating: ${facts[i].rating}</p><p>Tags: ${facts[i].tags.length}</p></div>`;
     }
   } catch (error) {
     console.log("There seems to be an error");
